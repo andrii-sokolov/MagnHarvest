@@ -1,0 +1,23 @@
+#ifndef MFD_H_INCLUDED
+#define MFD_H_INCLUDED
+
+double MFD (double rx, double ry, double rz, double rmx, double rmy, double rmz, double mmx, double mmy, double mmz, double *ans);
+double Rectangular_MFD(double rx, double ry, double rz, double a, double b, double c, double nmx, double nmy, double nmz,int mesh_a, int mesh_b, int mesh_c, double Magn, double* result);
+
+class Rectangular_magnet {
+    private:
+        double magnet_a;
+        double magnet_b;
+        double magnet_c;
+        double magnet_n_x;
+        double magnet_n_y;
+        double magnet_n_z;
+        int mesh_x;
+        int mesh_y;
+        int mesh_z;
+        double Magn;
+    public:
+        
+};
+
+#endif // MFD_H_INCLUDED

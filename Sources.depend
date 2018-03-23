@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1521823786 source:/home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/main.cpp
+	<iostream>
+	"mfd.h"
+	"constants.h"
+
+1521830205 /home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/mfd.h
+	<string>
+
+1521821095 source:/home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/mpf.cpp
+	"mfd.h"
+	<math.h>
+	"constants.h"
+
+1521830403 /home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/constants.h
+
+1521830403 source:/home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/mfd.cpp
+	"mfd.h"
+	"constants.h"
+	<math.h>
+	<string>
+	<fstream>
+	<iostream>
+
