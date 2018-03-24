@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1521823786 source:/home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/main.cpp
+1521910880 source:/home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/main.cpp
 	<iostream>
 	"mfd.h"
 	"constants.h"
 
-1521830205 /home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/mfd.h
+1521905883 /home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/mfd.h
 	<string>
 
 1521821095 source:/home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/mpf.cpp
@@ -12,13 +12,27 @@
 	<math.h>
 	"constants.h"
 
-1521830403 /home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/constants.h
+1521831276 /home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/constants.h
 
-1521830403 source:/home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/mfd.cpp
+1521910810 source:/home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/mfd.cpp
 	"mfd.h"
 	"constants.h"
 	<math.h>
 	<string>
 	<fstream>
 	<iostream>
+
+1521831276 source:/home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/constants.cpp
+	"constants.h"
+	<math.h>
+
+1521832460 source:/home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/oscillator.cpp
+	"oscillator.h"
+	"constants.h"
+	<math.h>
+	<string>
+	<fstream>
+	<iostream>
+
+1521832476 /home/cbapka/Dropbox/Irish/Magnets/CPP/Sources/oscillator.h
 

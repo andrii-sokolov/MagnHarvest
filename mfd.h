@@ -20,6 +20,9 @@ class Rectangular_magnet {
         double Magn;
         int mesh_surf_a;
         int mesh_surf_b;
+        double* x_surf;
+        double* y_surf;
+        double* z_surf;
         void MFD (double rx, double ry, double rz, double rmx, double rmy, double rmz, double mmx, double mmy, double mmz, double *ans);
     public:
         void Rectangular_MFD(double rx, double ry, double rz, double* result);
@@ -35,6 +38,8 @@ class Rectangular_magnet {
         void Generate_Flux_flat_file(double z_min, double z_max, double dz, double a_max, double a_min,double da, string filename);
 
         Rectangular_magnet();
+        ~Rectangular_magnet();
+
 };
 
 #endif // MFD_H_INCLUDED
