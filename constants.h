@@ -5,15 +5,9 @@
 const double mu_0 = 1.25663706e-6;
 
 /** Spring constant*/
-const double k = 2665.7;
+//const double k = 2665.7;
 /** Air dumphing constant*/
-const double beta = 8.8e-3;
-
-/** The temporary block
-*   time constants for the numerical method*/
-//double dt = 0.000001;
-//double t_max = 1.5;
-//int i_max = 100;
+//const double beta = 8.8e-3;
 
 /** Initial shift of a coil corresponding to the center of a magnet*/
 const double z0 = 0.0022;
