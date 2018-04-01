@@ -53,4 +53,5 @@ double a_parameter(double r);
 double b_parameter(double r);
 double Flux_square_interp(double r, double z);
 double Force_EM_interp(double z, double v);
+void Get_Force_File(double v_min, double v_max, double dv, double z_min, double z_max, double dz);
 #endif // CONSTANTS_H_INCLUDED
